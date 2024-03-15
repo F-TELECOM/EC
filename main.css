@@ -1,23 +1,47 @@
-.wrapper{
-    display: flex;
-    align-items: center;
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: radial-gradient(circle at center, #4cff35, #4169e1);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.container{
-  flex-direction: row;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Установка высоты для .wrapper по высоте содержимого */
 }
 
-.text{
+.container {
+  display: flex;
+  flex-direction: column; /* Изменение направления flex на колонки */
+  align-items: center; /* Выравнивание по центру по горизонтали */
+}
+
+.hello-text {
   text-align: center;
+  font-size: 46px; /* Увеличение размера текста для элемента .hello-text */
+  line-height: 1.5;
+  margin-top: 20px; /* Добавим отступ сверху для текста */
 }
 
-.main-img{
-  width: 600px;
-  height: 300px;
+.main-img {
+  width: 400px; /* Уменьшим ширину изображения */
 }
 
-.img-ozon{
-  width: 300px;
-  height: 150px;
+.text {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.5;
+  margin-top: 20px; /* Добавим отступ сверху для текста */
+}
+
+.img-ozon {
+  width: 300px; /* Уменьшим ширину изображения магазина */
+  height: auto; /* Разрешим менять высоту, чтобы сохранить пропорции */
 }
