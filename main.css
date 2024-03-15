@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background: radial-gradient(circle at center, #4cff35, #4169e1);
+  /* background: radial-gradient(circle at center, #ffffff, #b1feb2); */
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -28,6 +28,8 @@ body {
   font-size: 46px; /* Увеличение размера текста для элемента .hello-text */
   line-height: 1.5;
   margin-top: 20px; /* Добавим отступ сверху для текста */
+  margin-bottom: 20px; /* Добавим отступ снизу для текста */
+    color: rgb(114, 114, 114);  /* Цвет текста */
 }
 
 .main-img {
@@ -39,6 +41,7 @@ body {
   font-size: 36px;
   line-height: 1.5;
   margin-top: 20px; /* Добавим отступ сверху для текста */
+    color: rgb(114, 114, 114);  /* Цвет текста */
 }
 
 .img-ozon {
