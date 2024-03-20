@@ -5,7 +5,7 @@
 	box-sizing:border-box;	
 }
 
-body {overscroll-behavior: none}
+.body {overscroll-behavior: none}
 
 .marg{   
 	width: 400px;
