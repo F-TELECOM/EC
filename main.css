@@ -48,3 +48,44 @@ body {
   width: 300px; /* Уменьшим ширину изображения магазина */
   height: auto; /* Разрешим менять высоту, чтобы сохранить пропорции */
 }
+
+@media (max-width: 576px) {
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Установка высоты для .wrapper по высоте содержимого */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; /* Изменение направления flex на колонки */
+    align-items: center; /* Выравнивание по центру по горизонтали */
+  }
+  
+  .hello-text {
+    text-align: center;
+    font-size: 35px; /* Увеличение размера текста для элемента .hello-text */
+    line-height: 1.5;
+    margin-top: 10px; /* Добавим отступ сверху для текста */
+    margin-bottom: 10px; /* Добавим отступ снизу для текста */
+      color: rgb(114, 114, 114);  /* Цвет текста */
+  }
+  
+  .main-img {
+    width: 200px; /* Уменьшим ширину изображения */
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 10px; /* Добавим отступ сверху для текста */
+      color: rgb(114, 114, 114);  /* Цвет текста */
+  }
+  
+  .img-ozon {
+    width: 200px; /* Уменьшим ширину изображения магазина */
+    height: auto; /* Разрешим менять высоту, чтобы сохранить пропорции */
+  }
+}
