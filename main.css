@@ -80,11 +80,11 @@ body {
 
 .list{
   display: flex;
-
+  
 }
 
 .list_item{
-  margin-right: 10px;
+  margin-right: 15px;
   width: 300px;
   height: 150px;
   background-color: #a0f29f;
@@ -171,5 +171,32 @@ body {
 
 .menu-item:hover {
   transform: scale(1.1); /* увеличиваем размер при наведении */
+}
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.list_item{
+  margin-bottom: 10px;
+  width: 200px;
+  height: 75px;
+  background-color: #a0f29f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  border-radius: 10px; /* скругление углов для создания квадратной формы */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* тень для эффекта поднятия */
+  transition: transform 0.3s;
+}
+
+.list_item:hover{
+  transform: scale(1.1);
+}
+
+.list_item:last-child{
+  margin-bottom: 0;
 }
 }
