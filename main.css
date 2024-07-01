@@ -82,9 +82,9 @@ body {
 .chat__link{
   display: flex;
   justify-content: center;
-  height: 100px;
   flex-direction: column;
   width: 350px;
+  height: 100px;
   background-color: #a0f29f;
   color: rgb(114, 114, 114);
   text-decoration: none;
