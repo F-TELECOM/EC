@@ -269,7 +269,7 @@ body {
   transform: scale(1.1);
 }
 
-.list_item:last-child{
+/* .list_item:last-child{
   margin-bottom: 0;
-}
+} */
 }
